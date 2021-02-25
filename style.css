@@ -89,6 +89,11 @@ main {
     opacity: 1;
 }
 
+.container .card:focus .content {
+    visibility: visible;
+    opacity: 1;
+}
+
 .footer-content {
     margin-top: 10px;
 }
@@ -103,4 +108,12 @@ main {
 .footer-content a:hover {
     background: tomato;
     
+}
+
+/* mobile */
+@media all and (max-width: 500px) {
+    header {
+        flex-wrap: wrap;
+        height: 100px;
+    }
 }
