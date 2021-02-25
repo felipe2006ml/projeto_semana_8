@@ -123,4 +123,7 @@ main {
     .footer-content a {
         margin: 5px;
     }
+    .container .card {
+        min-height: 450px;
+    }
 }

@@ -13,6 +13,7 @@ function loadLivros(busca) {
     xhr.onreadystatechange = function() {
         let busca = document.getElementById('input-busca')
         busca.value = ""
+        containerDiv.innerHTML = ""
         if(xhr.readyState == 4 && xhr.status == 200) {
             let dadosJSON = JSON.parse(this.responseText)
 
